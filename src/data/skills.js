@@ -86,7 +86,7 @@ export default [
             alt: "kotlin"
         },
         title: "Kotlin",
-        desc: "object oriented programming language",
+        desc: "modern statically typed programming language",
         category: "backend"
     },
     {
@@ -126,7 +126,7 @@ export default [
             alt: "python"
         },
         title: "Python",
-        desc: "machine learning and data analytical language",
+        desc: "machine learning and data science language",
         category: "programming"
     },
     {
