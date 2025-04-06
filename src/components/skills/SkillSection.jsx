@@ -6,7 +6,7 @@ const SkillSection = ({ title, category }) => {
 
     return (
         <div className="my-10 mr-10">
-            <h1 className="text-amber-500 text-4xl ml-20 w-[60vh] mb-1">{category}</h1>
+            <h1 className="text-amber-400 text-3xl ml-20 w-[60vh] mb-1">{category}</h1>
             <hr className="ml-20 mb-4 text-amber-500 w-[185vh]" />
             <div className="flex flex-wrap gap-4 ml-20">
                 {filteredSkills.map(skill => (
