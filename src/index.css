@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+    body {
+        background: #10172A;
+        font-family: monospace;
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        cursor: pointer;
+    }
+}
+
+@layer utilities {
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+}
+
+@layer components {
+    .top-bar {
+        @apply p-2 border-2 border-amber-500 rounded-md w-[100%] overflow-auto;
+    }
+    .card {
+        @apply p-2 border-2 border-amber-500 rounded-md flex-grow overflow-auto fixed h-[88.8%] w-[100%];
+    }
+    .display-card {
+        @apply p-2 border-2 border-amber-500 rounded-md;
+    }
+    .texts {
+        @apply text-center font-mono text-amber-500 font-extrabold text-[16px];
+    }
+    .btn-active {
+        @apply p-2 border-2 border-amber-500 rounded-t-md rounded-b-none border-b-0 w-[150px];
+    }
+    .gradient {
+        @apply bg-gradient-to-br from-amber-500 to-transparent;
+    }
+}
