@@ -4,11 +4,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import './index.css'
 import App from './App.jsx'
-import Home from "./components/Home.jsx";
-import Projects from "./components/Projects.jsx";
-import About from "./components/About.jsx";
-import Skills from "./components/Skills.jsx";
-import Certifications from "./components/Certifications.jsx";
+import Home from "./components/home/Home.jsx";
+import Projects from "./components/projects/Projects.jsx";
+import About from "./components/about/About.jsx";
+import Skills from "./components/skills/Skills.jsx";
+import Certifications from "./components/certifications/Certifications.jsx";
 import Experience from "./components/Experience.jsx";
 
 const router = createBrowserRouter([
@@ -32,10 +32,10 @@ const router = createBrowserRouter([
                 path: '/certifications',
                 element: <Certifications />
             },
-            {
-                path: '/experience',
-                element: <Experience />
-            },
+            // {
+            //     path: '/experience',
+            //     element: <Experience />
+            // },
             {
                 path: '/projects',
                 element: <Projects />,

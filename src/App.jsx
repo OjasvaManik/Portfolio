@@ -42,12 +42,12 @@ function App() {
                       certifications
                   </button>
               </Link>
-              <Link to={'/experience'}>
-                  <button onClick={() => handleTabChange('experience')}
-                          className={`${activeTab === 'experience' ? 'btn-active' : ''} texts`}>
-                      experience
-                  </button>
-              </Link>
+              {/*<Link to={'/experience'}>*/}
+              {/*    <button onClick={() => handleTabChange('experience')}*/}
+              {/*            className={`${activeTab === 'experience' ? 'btn-active' : ''} texts`}>*/}
+              {/*        experience*/}
+              {/*    </button>*/}
+              {/*</Link>*/}
               <Link to={'/projects'}>
                   <button onClick={() => handleTabChange('projects')}
                           className={`${activeTab === 'projects' ? 'btn-active' : ''} texts`}>
