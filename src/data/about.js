@@ -5,10 +5,10 @@ export default [
         link: "https://www.linkedin.com/in/ojasva-manik\n",
         img: {
             hover: {
-                src: "about-icons/linkedin-hover.png",
+                src: "about-icons/linkedin-hover.webp",
                 alt: "linkedin-hover"
             },
-            src: "about-icons/linkedin.png",
+            src: "about-icons/linkedin.webp",
             alt: "linkedin"
         }
     },
@@ -18,10 +18,10 @@ export default [
         link: "https://discordapp.com/users/aliasa1",
         img: {
             hover: {
-                src: "about-icons/discord-hover.png",
+                src: "about-icons/discord-hover.webp",
                 alt: "discord-hover"
             },
-            src: "about-icons/discord.png",
+            src: "about-icons/discord.webp",
             alt: "discord"
         }
     },
@@ -31,10 +31,10 @@ export default [
         link: "https://github.com/OjasvaManik",
         img: {
             hover: {
-                src: "about-icons/github-hover.png",
+                src: "about-icons/github-hover.webp",
                 alt: "github-hover"
             },
-            src: "about-icons/github.png",
+            src: "about-icons/github.webp",
             alt: "github"
         }
     },
@@ -44,10 +44,10 @@ export default [
         link: "https://mail.google.com/mail/?view=cm&to=manik.ojasva.3663@gmail.com",
         img: {
             hover: {
-                src: "about-icons/gmail-hover.png",
+                src: "about-icons/gmail-hover.webp",
                 alt: "email-hover"
             },
-            src: "about-icons/gmail.png",
+            src: "about-icons/gmail.webp",
             alt: "email"
         }
     },

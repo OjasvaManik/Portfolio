@@ -11,7 +11,7 @@ export default function SkillCard (props) {
                 onMouseLeave={() => setIsHover(false)}
             >
                 <div className={'mr-4'}>
-                    <img src={isHover ? props.img.hover.src : props.img.src} alt={isHover ? props.img.hover.alt : props.img.alt}/>
+                    <img src={isHover ? props.img.hover.src : props.img.src} alt={isHover ? props.img.hover.alt : props.img.alt} loading="lazy" />
                 </div>
                 <div className={'border-l-2 border-amber-500 mr-4 group-hover:border-amber-50'}></div>
                 <div className={'grid grid-rows-2'}>

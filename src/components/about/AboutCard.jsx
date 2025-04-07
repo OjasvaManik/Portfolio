@@ -10,13 +10,14 @@ export default function AboutCard (props) {
                 onMouseEnter={() => setIsHover(true)}
                 onMouseLeave={() => setIsHover(false)}
             >
-                <a href={props.link} target={'_blank'} className={'flex justify-baseline'}>
+                <a href={props.link}   className={'flex justify-baseline'}>
                     <div className={'mr-4'}>
-                        <img src={isHover ? props.img.hover.src : props.img.src} alt={isHover ? props.img.hover.alt : props.img.alt} className={''}/>
+                        <img src={isHover ? props.img.hover.src : props.img.src} alt={isHover ? props.img.hover.alt : props.img.alt} loading="lazy" className={''}/>
                     </div>
                     <div className={'border-l-2 border-amber-500 mr-4 group-hover:border-amber-50 group-hover:duration-300'}></div>
                     <div className={'ml-10 flex-center'}>
-                        <p>{props.title}</p>
+                        <p className={'mr-2'}>{props.title}</p>
+                        <img src={isHover ? "/icons/linking-hover.webp" : "/icons/linking.webp"} alt={isHover ? "linking-hover" : "linking"} loading="lazy" />
                     </div>
                 </a>
             </div>

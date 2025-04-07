@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         img: {
-            src: "/projects/portfolio.png",
+            src: "/projects/portfolio.webp",
             alt: "portfolio"
         },
         title: "Portfolio",
@@ -20,7 +20,7 @@ export default [
     {
         id: 2,
         img: {
-            src: "/projects/recipe-ai.png",
+            src: "/projects/recipe-ai.webp",
             alt: "recipe-ai"
         },
         title: "Multi-Purpose AI App",
@@ -38,7 +38,7 @@ export default [
     {
         id: 3,
         img: {
-            src: "/projects/dbc.png",
+            src: "/projects/dbc.webp",
             alt: "digital-business-card"
         },
         title: "Digital Business Card",
@@ -53,7 +53,7 @@ export default [
     {
         id: 4,
         img: {
-            src: "/projects/mtj.png",
+            src: "/projects/mtj.webp",
             alt: "my-travel-journal"
         },
         title: "My Travel Journal",
