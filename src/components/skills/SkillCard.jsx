@@ -16,7 +16,7 @@ export default function SkillCard (props) {
                 <div className={'border-l-2 border-amber-500 mr-4 group-hover:border-amber-50'}></div>
                 <div className={'grid grid-rows-2'}>
                     <p>{props.title}</p>
-                    <p className={'text-amber-500/75 group-hover:text-amber-50'}>{props.desc}</p>
+                    <p className={'text-amber-500/75 group-hover:text-amber-50 group-hover:duration-300'}>{props.desc}</p>
                 </div>
             </div>
         </div>

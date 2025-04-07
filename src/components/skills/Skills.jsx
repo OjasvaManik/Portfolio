@@ -2,7 +2,7 @@ import SkillSection from "./SkillSection.jsx";
 
 export default function Skills () {
     return (
-        <div className={'card flex flex-col no-scrollbar'}>
+        <div className={'card flex flex-col custom-scrollbar'}>
             <SkillSection title="frontend" category="frontend" />
             <SkillSection title="backend" category="backend" />
             <SkillSection title="database" category="database" />

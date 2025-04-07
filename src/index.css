@@ -6,6 +6,7 @@
         font-family: monospace;
         display: flex;
         flex-direction: column;
+        scroll-behavior: smooth;
     }
     button {
         cursor: pointer;
@@ -30,6 +31,38 @@
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
     }
+
+    ::-webkit-scrollbar {
+        width: 0.5em;
+        height: 1em;
+    }
+    ::-webkit-scrollbar-track {
+        background: #10172A;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(#FFD54F, #FF6F00);
+        border-radius: 1em;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(#FF6F00, #FFD54F);
+        border-radius: 1em;
+    }
+    /*::-webkit-scrollbar-button {*/
+    /*    background: #FF6F00;*/
+    /*    height: 1em;*/
+    /*    background-size: 0.5em;*/
+    /*    border: 2px solid #FF6F00;*/
+    /*    border-radius: 0.5em;*/
+    /*}*/
+
+    /* Firefox only - more specific targeting */
+    @-moz-document url-prefix() {
+        * {
+            scrollbar-width: thin;
+            scrollbar-color: #FF6F00 #10172A;
+        }
+    }
+
 }
 
 @layer components {
@@ -40,12 +73,11 @@
         @apply p-2 border-2 border-amber-500 rounded-md flex-grow overflow-auto fixed h-[88.8%] w-[100%];
     }
     .display-card {
-        @apply p-2 border-2 border-amber-500 rounded-md transition-all duration-300;
+        @apply p-2 border-2 border-amber-500 rounded-md transition-all duration-300 mr-4;
         transition: border-color 0ms, all 300ms;
     }
-
     .display-card:hover {
-        @apply bg-gradient-to-r from-amber-500 to-transparent text-white border-0 shadow-2xl shadow-amber-300 scale-110 duration-300 transition-all;
+        @apply bg-gradient-to-r from-amber-500 to-transparent text-white border-0 shadow-2xl shadow-amber-300 scale-110 duration-300 transition-all transform-gpu;
         border:none;
     }
     .texts {
@@ -57,4 +89,5 @@
     .gradient {
         @apply bg-gradient-to-br from-amber-500 to-transparent;
     }
+
 }

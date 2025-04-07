@@ -13,7 +13,7 @@ export default function About () {
     })
 
     return (
-        <div className={'card flex flex-col justify-center'}>
+        <div className={'card flex flex-col justify-center items-center'}>
             {aboutDetails}
         </div>
     );

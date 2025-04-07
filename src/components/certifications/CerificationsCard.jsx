@@ -8,8 +8,8 @@ export default function CertificationsCard (props) {
                 <hr className={'my-8'} />
                 <div className={'flex flex-col justify-center mb-6'}>
                     <p>{props.title}</p>
-                    <p className={'text-amber-500/75 group-hover:text-amber-50'}>{props.by}</p>
-                    <p className={'text-amber-500/50 group-hover:text-amber-50'}>{props.issued}</p>
+                    <p className={'text-amber-500/75 group-hover:text-amber-50 group-hover:duration-300'}>{props.by}</p>
+                    <p className={'text-amber-500/50 group-hover:text-amber-50 group-hover:duration-300'}>{props.issued}</p>
                 </div>
             </div>
         </div>
