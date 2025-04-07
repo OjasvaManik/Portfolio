@@ -12,7 +12,7 @@ export default function Certifications () {
     })
 
     return (
-        <div className={'card flex flex-wrap justify-center custom-scrollbar'}>
+        <div className={'card flex flex-wrap justify-center'}>
             {certificateDetails}
         </div>
     );
