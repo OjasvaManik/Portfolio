@@ -4,6 +4,10 @@ export default [
         title: "linkedin",
         link: "https://www.linkedin.com/in/ojasva-manik\n",
         img: {
+            hover: {
+                src: "about-icons/linkedin-hover.png",
+                alt: "linkedin-hover"
+            },
             src: "about-icons/linkedin.png",
             alt: "linkedin"
         }
@@ -11,8 +15,12 @@ export default [
     {
         id: 2,
         title: "discord",
-            link: "https://discordapp.com/users/aliasa1",
+        link: "https://discordapp.com/users/aliasa1",
         img: {
+            hover: {
+                src: "about-icons/discord-hover.png",
+                alt: "discord-hover"
+            },
             src: "about-icons/discord.png",
             alt: "discord"
         }
@@ -22,6 +30,10 @@ export default [
         title: "github",
         link: "https://github.com/OjasvaManik",
         img: {
+            hover: {
+                src: "about-icons/github-hover.png",
+                alt: "github-hover"
+            },
             src: "about-icons/github.png",
             alt: "github"
         }
@@ -31,6 +43,10 @@ export default [
         title: "email",
         link: "https://mail.google.com/mail/?view=cm&to=manik.ojasva.3663@gmail.com",
         img: {
+            hover: {
+                src: "about-icons/gmail-hover.png",
+                alt: "email-hover"
+            },
             src: "about-icons/gmail.png",
             alt: "email"
         }

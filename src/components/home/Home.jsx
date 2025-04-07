@@ -10,10 +10,10 @@ export default function Home () {
 
     return (
         <div className={'card flex-center'}>
-            <div className={'text-amber-500 flex-center display-card mr-20 h-[70vh] w-[50vh] gradient p-1 rounded-full border-0'}>
+            <div className={'text-amber-500 flex-center border-amber-500 mr-20 h-[70vh] w-[50vh] gradient p-1 rounded-full border-0 hover:duration-500 duration-500 hover:scale-110'}>
                 <img src={'/img/ojasva-manik-bw.jpg'} alt={'Ojasva Manik'} className={'object-cover h-[100%] w-[100%] rounded-full'} />
             </div>
-            <div className={'text-amber-500 text-4xl ml-20  w-[60vh]'}>
+            <div className={'text-amber-500 text-4xl ml-20 w-[60vh] hover:scale-110 hover:duration-500 duration-500'}>
                 <h1 className={'p-2'}>
                     {timeOfDay}
                 </h1>

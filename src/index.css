@@ -10,6 +10,10 @@
     button {
         cursor: pointer;
     }
+    ::selection {
+        color: #10172A;
+        background: #FFC107;
+    }
 }
 
 @layer utilities {
@@ -36,7 +40,13 @@
         @apply p-2 border-2 border-amber-500 rounded-md flex-grow overflow-auto fixed h-[88.8%] w-[100%];
     }
     .display-card {
-        @apply p-2 border-2 border-amber-500 rounded-md;
+        @apply p-2 border-2 border-amber-500 rounded-md transition-all duration-300;
+        transition: border-color 0ms, all 300ms;
+    }
+
+    .display-card:hover {
+        @apply bg-gradient-to-r from-amber-500 to-transparent text-white border-0 shadow-2xl shadow-amber-300 scale-110 duration-300 transition-all;
+        border:none;
     }
     .texts {
         @apply text-center font-mono text-amber-500 font-extrabold text-[16px];
