@@ -15,7 +15,7 @@ export default [
                 tag: "Tailwind CSS"
             },
         ],
-        link: "https://github.com/OjasvaManik/Portfolio",
+        link: "https://github.com/OjasvaManik/OjasvaManik.github.io",
     },
     {
         id: 2,
