@@ -1,5 +1,35 @@
 export default [
     {
+        id: 5,
+        img: {
+            src: "/projects/web.webp",
+            alt: "my-travel-journal"
+        },
+        title: "Water Efficiency Bank",
+        description: "This is a website which acts as a hub for all things water.",
+        lang: [
+            {
+                tag: "React"
+            },
+            {
+                tag: "Tailwind CSS"
+            },
+            {
+                tag: "TypeScript"
+            },
+            {
+                tag: "Spring Boot"
+            },
+            {
+                tag: "Kotlin"
+            },
+            {
+                tag: "PostgreSQL"
+            },
+        ],
+        link: "https://github.com/OjasvaManik/My-travel-journal",
+    },
+    {
         id: 1,
         img: {
             src: "/projects/portfolio.webp",

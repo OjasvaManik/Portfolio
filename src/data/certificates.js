@@ -49,4 +49,14 @@ export default [
         issued: "",
         by: "NPTEL"
     },
+    {
+        id: 6,
+        img: {
+            src: "/certificates/The Joy of Computing using Python.webp",
+            alt: "python-nptel"
+        },
+        title: "The Joy of Computing Using Python",
+        issued: "",
+        by: "NPTEL"
+    },
 ]
