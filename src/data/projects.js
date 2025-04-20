@@ -27,7 +27,7 @@ export default [
                 tag: "PostgreSQL"
             },
         ],
-        link: "https://github.com/OjasvaManik/My-travel-journal",
+        link: "https://github.com/OjasvaManik/W.E.B.",
     },
     {
         id: 1,
